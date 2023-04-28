@@ -733,7 +733,6 @@ export default {
   margin-left: 20px;
   margin-right: 10px;
 }
-
 .DuringDay {
   grid-area: DuringDay;
   margin: 15px 15px 5px 25px;
