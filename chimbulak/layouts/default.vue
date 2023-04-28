@@ -645,7 +645,7 @@ export default {
     }
   },
   created() {
-    // this.getWeather()
+    this.getWeather()
     // this.getTime()
   },
   methods: {
