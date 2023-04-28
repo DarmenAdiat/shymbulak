@@ -38,8 +38,8 @@
                           style="margin-left: 20px; margin-top: 20px; outline: #dae9f4 auto;border-radius: 10px">
         <v-icon light>mdi-magnify</v-icon>
       </v-app-bar-nav-icon>
-      <a href="/"><img src="/shymbulak-logo.6467f58.svg"
-                       style="position: absolute; margin-left: 38%; margin-top: -10px"></a>
+      <a href="/"><img class='mainlogo' src="/shymbulak-logo.6467f58.svg"
+                       style="margin-top: -10px"></a>
       <v-spacer/>
       <v-app-bar-nav-icon style="margin-right: 20px; margin-top: 20px; outline: #dae9f4 auto;border-radius: 10px">
         <v-icon light>mdi-account-outline</v-icon>
@@ -52,7 +52,7 @@
       </v-app-bar-nav-icon>
     </v-app-bar>
     <v-container style="margin-top: 60px; max-width: fit-content">
-      <v-card-text style="font-size: xx-large; margin-bottom: 30px; padding-left: 2px">Погода</v-card-text>
+      <v-card-text class="cardtext" style="font-size: xx-large; margin-bottom: 30px; padding-left: 2px">Погода</v-card-text>
       <v-row style="justify-content: center">
         <v-card class="card1"
           outlined
@@ -950,6 +950,11 @@ p[data-v-601faef2] {
   font-size: 21px;
   margin-bottom: 24px;
 }
+.mainlogo{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+}
 @media (max-width: 930px) {
   .container[data-v-c73e644a] {
     padding: 0 17px;
@@ -968,6 +973,16 @@ p[data-v-601faef2] {
    }
 
 }
+@media (max-width: 1164px) {
+  .info > div[data-v-601faef2] {
+    width: 25%!important;
+  }
+}
+@media (max-width: 1164px) {
+  .apps{
+    display: none;
+  }
+}
 @media screen and (max-width: 1500px) {
   .card3{
     width: 75%!important;
@@ -977,6 +992,10 @@ p[data-v-601faef2] {
   }
   .card2{
     width: 37%!important;
+  }
+  .cardtext{
+    width: 75%!important;
+    margin-left: 150px!important;
   }
 }
 @media screen and (max-width: 1000px) {
