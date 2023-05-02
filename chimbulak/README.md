@@ -1,5 +1,5 @@
 # chimbulak
-![alt text](https://github.com/[DarmenAdiat]/[shymbulak]/blob/[master]/chimbulak/assets/screej.jpg?raw=true)
+![alt text](https://github.com/[DarmenAdiat]/[shymbulak]/blob/[master]/chimbulak/assets/main_screen.jpg?raw=true)
 ## Build Setup
 
 ```bash
