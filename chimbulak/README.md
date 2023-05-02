@@ -1,4 +1,4 @@
-# chimbulak
+# Shymbulak
 ![alt text](https://github.com/DarmenAdiat/shymbulak/blob/master/chimbulak/assets/main_screen.png?raw=true)
 ## Build Setup
 
